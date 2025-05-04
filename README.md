@@ -43,4 +43,4 @@ event NameTransferred(string name, address from, address to);
 event ApproverAdded(address approver);
 event ApproverRemoved(address approver);
 
-Powered by Grown Folk ID — where profiles come before coins.
+## Powered by Grown Folk ID — where profiles come before coins.
