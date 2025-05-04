@@ -42,5 +42,19 @@ event NameRevoked(string name);
 event NameTransferred(string name, address from, address to);
 event ApproverAdded(address approver);
 event ApproverRemoved(address approver);
+```
 
-## Powered by Grown Folk ID — where profiles come before coins.
+## Powered by Grown Folk ID
+
+This contract powers the Grown Folk ID system — a decentralized identity network for real-world organizers, businesses, and communities.
+
+Every `.grownfolk` name issued through this system is manually approved and timestamped on-chain, allowing for:
+
+- Verified organizer profiles  
+- Regional identity (e.g. `detroit.michigan`)  
+- Brand-backed entities (e.g. `uclick.weship`)  
+- Local chapters (e.g. `atlanta.georgia`)  
+
+Grown Folk Resolver V2 was built through trial and error — improving on V1 by separating pending names, timestamping approvals, and allowing city, state, and brand-based suffixes.
+
+> **Grown Folk ID** — where profiles come before coins.
